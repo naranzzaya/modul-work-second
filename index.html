@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Guitasaur</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style media="screen">
+      body{
+      background:#7943A6;
+      }
+      /* первая */
+      .first{
+        display: block;
+        width: 1280px;
+        height: 242px;
+        background:  url('images/hi.svg');
+        animation: jump 0.8s steps(1) infinite;
+      }
+      /* вторая */
+      .second{
+        display: block;
+        width: 1280px;
+        height: 147px;
+        background: url('images/musical.svg');
+      }
+      /* третья */
+      .third{
+        display: inline-block;
+        margin-top: 30px;
+        width: 558px;
+        height: 209.09px;
+        background: url('images/club.svg');
+      }
+      /* фортепиано */
+      .piano{
+        display: inline-block;
+        width: 688px;
+        height: 209.09px;
+      }
+      .p_y{
+        width: 92.31px;
+        height: 196.98px;
+        background: #F9ED32;
+        border-radius: 20px;
+        display: inline-block;
+        margin-top: 0px;
+      }
+      .p_y:hover {
+        background: white;
+        transition: all 0.01s linear;
+      }
+      .p_g{
+        width: 71.55px;
+        height: 154px;
+        background: #8DC73F;
+        border-radius: 20px;
+        display: inline-block;
+      }
+      .odin{
+        margin-left: 57px;
+      }
+      .dva{
+        margin-left: 22px;
+      }
+      .tri{
+        margin-left: 22px;
+      }
+      .chetire{
+        margin-left: 22px;
+      }
+      .pyti{
+        margin-left: 22px;
+      }
+      .shesti{
+        margin-left: 22px;
+      }
+      .p_g:hover{
+        background: white;
+        transition: all 0.01s linear;
+      }
+      .pg {
+        margin-top: -210px;
+      }
+      /* четвертая */
+      .fourth{
+        display: inline-block;
+        margin-top: 20px;
+        width: 1280px;
+        height: 245px;
+        background: url('images/guitasaur.svg');
+        animation: prig 1s steps(1) infinite;
+      }
+      /* барабан */
+      .drum{
+        display: inline-block;
+        margin-top: -50px;
+        width: 409.83px;
+        height: 432px;
+      }
+      .drum_one{
+        display: inline-block;
+        width: 200px;
+        height: 225px;
+        background: url('images/drum_one.svg');
+        animation: rotate 0.5s ease infinite;
+      }
+      .drum_one:hover{
+        /* transform: rotate(20deg); */
+        animation-play-state: paused;
+      }
+      .drum_two{
+        display: inline-block;
+        margin-left: -10px;
+        width: 210px;
+        height: 225px;
+        background: url('images/drum_two.svg');
+        animation: rotate 0.5s ease infinite;
+      }
+      .rotate:hover{
+        animation-play-state: paused;
+      }
+      .drum_box{
+        display: inline-block;
+        margin-top: -13px;
+        width: 410px;
+        height: 207px;
+        background: url('images/drum_box.svg')
+      }
+      /* пятая */
+      .fifth{
+        display: inline-block;
+        margin-top: -10px;
+        width: 767px;
+        height: 335px;
+      }
+      /* шестая */
+      .teach{
+        display: inline-block;
+        margin-left: 34px;
+        width: 767px;
+        height: 108.85px;
+        background: url('images/teach.svg');
+      }
+      .slogan_one{
+        display: inline-block;
+        width: 767px;
+        height: 152px;
+        background: url('images/slogan_one.svg');
+      }
+      .scale {
+        animation: scale 1s ease infinite;
+      }
+      /* седьмая */
+      .you{
+        display: inline-block;
+        width: 1280px;
+        height: 156.74px;
+        background: url('images/you.svg')
+      }
+      /* восьмая */
+      .dino{
+        display: inline-block;
+        margin-top: 60px;
+        margin-left: 56px;
+        width: 105.9px;
+        height: 165px;
+        background: url('images/dino.svg')
+      }
+      .turn{
+        animation: turn 1s ease infinite;
+      }
+      .turn:hover{
+        animation-play-state: paused;
+      }
+      .guitar{
+        display: inline-block;
+        margin-left: 95px;
+        margin-bottom: 10px;
+        width: 774.82px;
+        height: 109.04px;
+        background: url('images/guitar.svg');
+      }
+      .fortepiano{
+        display: inline-block;
+        margin-left: 34px;
+        margin-top: 63px;
+        width: 929.06px;
+        height: 150px;
+        background: url('images/fortepiano.svg');
+        animation: jumping 1s steps(1) infinite;
+      }
+      .drums{
+        display: inline-block;
+        margin-top: 64px;
+        width: 1280px;
+        height: 135px;
+        background: url('images/drums.svg');
+      }
+      .music-loader{
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        gap: 20px;
+      }
+      .loader-line{
+        width: 37px;
+        height: 2px;
+        border-radius: 10px;
+        background-color: #F9ED32;
+        animation: musicloader 1.5s ease-in-out infinite;
+      }
+      .loader-liner:nth-child(1){
+        animation-delay: 1s;
+      }
+      .loader-liner:nth-child(2){
+        animation-delay: 0.8s;
+      }
+      .loader-liner:nth-child(3){
+        animation-delay: 0.6s;
+      }
+      .loader-liner:nth-child(4){
+        animation-delay: 0.4s;
+      }
+      .loader-liner:nth-child(5){
+        animation-delay: 0.2s;
+      }
+      /* .guitar{
+        display: inline-block;
+        margin-left: -121px;
+        margin-bottom: -50px;
+        width: 494.69px;
+        height: 486.84px;
+        background: url('images/gitar.svg');
+      } */
+      /* анимация 'привет */
+      @keyframes jump {
+        0% {background-position: 0 0;}
+        12.5% {background-position: 0 -242px;}
+        25% {background-position: 0 -484px;}
+        37.5% {background-position: 0 -726px;}
+        50% {background-position: 0 -968px;}
+        62.5% {background-position: 0 -1210px;}
+        85% {background-position: 0 -1452px;}
+        97.5% {background-position: 0 -1694px;}
+        100% {background-position: 0 -1936px;}
+      }
+      /* анимация гитазавр */
+      @keyframes prig {
+        0% {background-position: 0 0;}
+        12.5% {background-position: 0 -245px;}
+        25% {background-position: 0 -490px;}
+        37.5% {background-position: 0 -735px;}
+        50% {background-position: 0 -980px;}
+        62.5% {background-position: 0 -1225px;}
+        85% {background-position: 0 -1470px;}
+        97.5% {background-position: 0 -1715px;}
+        100% {background-position: 0 -1960px;}
+      }
+      @keyframes rotate {
+        0% {transform: rotate(0);}
+        100% {transform: rotate(20deg);}
+      }
+      @keyframes scale {
+        30% {transform: scale(0.6);}
+        40% {transform:  scale(1);}
+        50% {transform: rotate(20deg) scale(0.8);}
+        70% {transform: rotate(0deg) scale(1);}
+        100% {transform: scale(0.8);}
+      }
+      @keyframes turn {
+      0% {transform: rotate(0deg);}
+      100%{transform: rotate(360deg);}
+      }
+      @keyframes jumping {
+        0% {background-position: 0 0;}
+        12.5% {background-position: 0 -150px;}
+        25% {background-position: 0 -300px;}
+        37.5% {background-position: 0 -450px;}
+        50% {background-position: 0 -600px;}
+        62.5% {background-position: 0 -750px;}
+        85% {background-position: 0 -900px;}
+        97.5% {background-position: 0 -1050px;}
+        100% {background-position: 0 -1200px;}
+      }
+      @keyframes musicloader {
+        0% { height: 40px;}
+        50% { height: 100px;}
+        100% { height: 40px;}
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="first jump"></div>
+    <div class="second"></div>
+    <div class="third"></div>
+    <div class="piano">
+      <div class="p_y one"></div>
+      <div class="p_y two"></div>
+      <div class="p_y three"></div>
+      <div class="p_y four"></div>
+      <div class="p_y five"></div>
+      <div class="p_y six"></div>
+      <div class="p_y seven"></div>
+      <div class="pg">
+        <div class="p_g odin "></div>
+        <div class="p_g dva"></div>
+        <div class="p_g tri"></div>
+        <div class="p_g chetire"></div>
+        <div class="p_g pyti"></div>
+        <div class="p_g shesti"></div>
+      </div>
+    </div>
+    <div class="fourth prig"></div>
+    <div class="drum">
+      <div class="drum_one rotate"></div>
+      <div class="drum_two rotate"></div>
+      <div class="drum_box"></div>
+    </div>
+    <div class="fifth">
+      <div class="teach"></div>
+      <div class="slogan_one scale"></div>
+    </div>
+    <div class="you"></div>
+    <div class="dino turn"></div>
+    <div class="guitar"></div>
+    <div class="gitar"></div>
+    <div class="fortepiano jumping"></div>
+    <div class="drums"></div>
+    <div class="music-loader">
+      <div class="loader-line"></div>
+      <div class="loader-line"></div>
+      <div class="loader-line"></div>
+      <div class="loader-line"></div>
+      <div class="loader-line"></div>
+      <div class="loader-line"></div>
+      <div class="loader-line"></div>
+      <div class="loader-line"></div>
+      <div class="loader-line"></div>
+      <div class="loader-line"></div>
+      <div class="loader-line"></div>
+      <div class="loader-line"></div>
+      <div class="loader-line"></div>
+      <div class="loader-line"></div>
+      <div class="loader-line"></div>
+    </div>
+    </div>
+  </body>
+
+</html>
