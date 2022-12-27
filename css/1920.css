@@ -1,21 +1,24 @@
-@media all and (min-width: 1441px) and (max-width: 1920px) {
+@media only screen and (min-width: 1920px){
   .first{
     width: 1920px;
-    height: 356px;
+    height: 355px;
     background: url('../images/hi_1920.svg')
   }
   .second{
     width: 1920px;
     height: 212px;
+    background: url('../images/musical_1920.svg')
   }
   .third{
-    width: 659px;
-    height: 197px;
+    width: 843px;
+    height: 409px;
     margin-top: -89px;
+    background: url('../images/club_1920.svg')
   }
   .third p{
     font-size: 90px;
     margin-top: 425px;
+    margin-left: 176px;
   }
   .piano{
     width: 1010px;
@@ -52,19 +55,8 @@
   .pg {
     margin-top: -310px;
   }
-  .second{
-    width: 1920px;
-    height: 212px;
-    background: url('../images/musical_1920.svg')
-  }
-  .third{
-    width: 843px;
-    height: 409px;
-    background: url('../images/club_1920.svg')
-  }
-  .third p{
-    margin-left: 176px;
-  }
+
+
   .fourth{
     width: 1920px;
     height: 357px;
@@ -128,11 +120,10 @@
   }
   .fortepiano{
     width: 1369px;
-    height: 210.87px;
+    height: 221px;
     margin-left: 74px;
     margin-top: 90px;
     background: url('../images/fortepiano_1920.svg');
-    /* animation: jumping 3s steps(1) infinite ; */
   }
   .drums{
     width: 1772px;
@@ -163,8 +154,21 @@
   }
   .bottom{
     width: 1920px;
-    height: 217px;
-    margin-top: 175px;
+    height: 190px;
+    margin-top: 135px;
+  }
+  .name p{
+    margin-top: 37px;
+    margin-left: 74px;
+    font-size: 48px;
+    line-height: 15px;
+  }
+  .logo{
+    width: 353px;
+    height: 112px;
+    margin-left: 1440px;
+    margin-top: -100px;
+    background: url('../images/white_1920.svg');
   }
   @keyframes jump {
     0% {background-position: 0 0;}
@@ -190,14 +194,14 @@
   }
   @keyframes jumping {
     0% {background-position: 0 0;}
-    12.5% {background-position: 0 -210.87px;}
-    25% {background-position: 0 -421.74px;}
-    37.5% {background-position: 0 -632.61px;}
-    50% {background-position: 0 -843.48px;}
-    62.5% {background-position: 0 -1054.35px;}
-    85% {background-position: 0 -1265.22px;}
-    97.5% {background-position: 0 -1476.09px;}
-    100% {background-position: 0 -1686.96px;}
+    12.5% {background-position: 0 -221px;}
+    25% {background-position: 0 -442px;}
+    37.5% {background-position: 0 -663px;}
+    50% {background-position: 0 -884px;}
+    62.5% {background-position: 0 -1105px;}
+    85% {background-position: 0 -1326px;}
+    97.5% {background-position: 0 -1447px;}
+    100% {background-position: 0 -1668px;}
   }
   @keyframes musicloader {
     0% { height: 100px;}

@@ -1,0 +1,113 @@
+@media only screen and (min-width: 1440px) and (max-width:1919px) {
+  .first{
+    width: 1440px;
+    height: 268px;
+    background: url('../images/hi_1440.svg')
+  }
+  .second{
+    width: 1440px;
+    height: 156px;
+    background: url('../images/musical_1440.svg')
+  }
+  .third{
+    width: 486px;
+    height: 145.21px;
+    margin-left: 66px;
+    margin-top: 70px;
+    background: url('../images/club_1440.svg')
+  }
+  .piano{
+    width: 744px;
+    height: 226px;
+    margin-left: 80px;
+  }
+  .p_y{
+    width: 100px;
+    height: 210px;
+  }
+  .p_g{
+    width: 77px;
+    height: 167px;
+    margin-left: 63px;
+  }
+  .dva{
+    margin-left: 23px;
+  }
+  .tri{
+    margin-left: 23px;
+  }
+  .chetire{
+    margin-left: 23px;
+  }
+  .pyti{
+    margin-left: 23px;
+  }
+  .shesti{
+    margin-left: 23px;
+  }
+  .pg {
+    margin-top: -230px;
+  }
+  .fourth{
+    width: 1440px;
+    height: 265px;
+    background: url('../images/guitasaur_1440.svg')
+  }
+  .drum{
+    width: 443px;
+    height: 467px;
+    margin-left: 42px;
+  }
+  .drum_one{
+    width: 222px;
+    height: 224px;
+    background:  url('../images/drum_one_1440.svg');
+  }
+  .drum_two{
+    width: 221px;
+    height: 224px;
+    background:  url('../images/drum_two_1440.svg');
+  }
+  .drum_box{
+    width: 443px;
+    height: 224px;
+    background:  url('../images/drum_box_1440.svg');
+  }
+  .teach{
+    width: 830px;
+    height: 118px;
+    margin-left: 58px;
+    background: url('../images/teach_1440.svg');
+  }
+  .slogan_one{
+    margin-left: 207px;
+  }
+  .you{
+    width: 1440px;
+    height: 170px;
+    margin-left: 0px;
+    background: url('../images/you_1440.svg');
+  }
+  @keyframes jump {
+    0% {background-position: 0 0;}
+    12.5% {background-position: 0 -268px;}
+    25% {background-position: 0 -536px;}
+    37.5% {background-position: 0 -804px;}
+    50% {background-position: 0 -1072px;}
+    62.5% {background-position: 0 -1340px;}
+    85% {background-position: 0 -1608px;}
+    97.5% {background-position: 0 -1876px;}
+    100% {background-position: 0 -2144px;}
+  }
+  @keyframes prig {
+    0% {background-position: 0 0;}
+    12.5% {background-position: 0 -265px;}
+    25% {background-position: 0 -530px;}
+    37.5% {background-position: 0 -795px;}
+    50% {background-position: 0 -1060px;}
+    62.5% {background-position: 0 -1325px;}
+    85% {background-position: 0 -1590px;}
+    97.5% {background-position: 0 -1855px;}
+    100% {background-position: 0 -2120px;}
+  }
+}

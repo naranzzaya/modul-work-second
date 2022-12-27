@@ -354,25 +354,28 @@ body{
 .bottom{
   display: inline-block;
   margin-top: 59px;
+  margin-right: 0px;
   width: 1280px;
-  height: 100px;
+  height: 150px;
   background: #8DC73F;
 }
-.name{
+.name p{
   display: inline-block;
-  margin-top: 28px;
+  margin-top: 48px;
   margin-left: 34px;
-  /* font-family: 'Fira Sans'; */
-  font-weight: 700;
+  font-weight: 500;
   font-size: 30px;
   text-transform: uppercase;
-  line-height: 15px;
+  line-height: 1px;
   color: #FFFFFF;
 }
 .logo{
   display: inline-block;
-  margin-left: 1000px;
-  margin-top: -60px;
+  width: 353px;
+  height: 112px;
+  background: url('../images/white.svg');
+  margin-left: 884px;
+  margin-top: -100px;
 }
 
 
