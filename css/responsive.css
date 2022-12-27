@@ -1,1 +1,207 @@
-@media all 
+@media all and (min-width: 1441px) and (max-width: 1920px) {
+  .first{
+    width: 1920px;
+    height: 356px;
+    background: url('../images/hi_1920.svg')
+  }
+  .second{
+    width: 1920px;
+    height: 212px;
+  }
+  .third{
+    width: 659px;
+    height: 197px;
+    margin-top: -89px;
+  }
+  .third p{
+    font-size: 90px;
+    margin-top: 425px;
+  }
+  .piano{
+    width: 1010px;
+    height: 305px;
+    margin-top: 80px;
+  }
+  .p_y{
+    width: 136px;
+    height: 289px;
+  }
+  .p_g{
+    width: 105px;
+    height: 226px;
+    margin-left: 60px;
+  }
+  .odin{
+    margin-left: 87px;
+  }
+  .dva{
+    margin-left: 32px;
+  }
+  .tri{
+    margin-left: 32px;
+  }
+  .chetire{
+    margin-left: 32px;
+  }
+  .pyti{
+    margin-left: 32px;
+  }
+  .shesti{
+    margin-left: 32px;
+  }
+  .pg {
+    margin-top: -310px;
+  }
+  .second{
+    width: 1920px;
+    height: 212px;
+    background: url('../images/musical_1920.svg')
+  }
+  .third{
+    width: 843px;
+    height: 409px;
+    background: url('../images/club_1920.svg')
+  }
+  .third p{
+    margin-left: 176px;
+  }
+  .fourth{
+    width: 1920px;
+    height: 357px;
+    background: url('../images/guitasaur_1920.svg')
+  }
+  .drum{
+    width: 601px;
+    height: 633.75px;
+    margin-left: 37px;
+  }
+  .drum_one{
+    width: 294px;
+    height: 330px;
+    background:  url('../images/drum_one_1920.svg');
+  }
+  .drum_two{
+    width: 294px;
+    height: 330px;
+    background:  url('../images/drum_two_1920.svg');
+  }
+  .drum_box{
+    width: 601px;
+    height: 304px;
+    background:  url('../images/drum_box_1920.svg');
+  }
+  .teach{
+    width: 1126.11px;
+    height: 160px;
+    margin-left: 70px;
+    margin-bottom: 158px;
+    background: url('../images/teach_1920.svg');
+  }
+  .slogan_one{
+    margin-left: 240px;
+  }
+  .slogan_one p{
+    font-size: 70px;
+  }
+  .you{
+    width: 1772px;
+    height: 230px;
+    margin-left: 74px;
+    background: url('../images/you_1920.svg');
+  }
+  .dino{
+    width: 156.4px;
+    height: 244px;
+    margin-left: 92px;
+    background: url('../images/dino_1920.svg');
+  }
+  .guitar{
+    width: 1136.98px;
+    height: 160px;
+    background: url('../images/guitar_1920.svg');
+  }
+  .gitar{
+    width: 544px;
+    height: 660px;
+    margin-bottom: -355px;
+    background: url('../images/gitar_1920.svg');
+  }
+  .fortepiano{
+    width: 1369px;
+    height: 210.87px;
+    margin-left: 74px;
+    margin-top: 90px;
+    background: url('../images/fortepiano_1920.svg');
+    /* animation: jumping 3s steps(1) infinite ; */
+  }
+  .drums{
+    width: 1772px;
+    height: 198px;
+    margin-left: 74px;
+    margin-top: 90px;
+    background: url('../images/drums_1920.svg');
+  }
+  .path{
+    margin-left: 74px;
+  }
+  .slogan_two p{
+    font-size: 70px;
+    margin-left: 535px;
+  }
+  .music-loader{
+    gap: 30px;
+  }
+  .loader-line{
+    width: 55px;
+    height: 20px;
+    border-radius: 25px;
+  }
+  .dinosaur{
+    width: 433.09px;
+    height: 320px;
+    background: url('../images/dinosaur_1920.svg');
+  }
+  .bottom{
+    width: 1920px;
+    height: 217px;
+    margin-top: 175px;
+  }
+  @keyframes jump {
+    0% {background-position: 0 0;}
+    12.5% {background-position: 0 -355px;}
+    25% {background-position: 0 -710px;}
+    37.5% {background-position: 0 -1065px;}
+    50% {background-position: 0 -1421px;}
+    62.5% {background-position: 0 -1776px;}
+    85% {background-position: 0 -2131px;}
+    97.5% {background-position: 0 -2486px;}
+    100% {background-position: 0 -2842px;}
+  }
+  @keyframes prig {
+    0% {background-position: 0 0;}
+    12.5% {background-position: 0 -357px;}
+    25% {background-position: 0 -714px;}
+    37.5% {background-position: 0 -1071px;}
+    50% {background-position: 0 -1428px;}
+    62.5% {background-position: 0 -1785px;}
+    85% {background-position: 0 -2142px;}
+    97.5% {background-position: 0 -2499px;}
+    100% {background-position: 0 -2856px;}
+  }
+  @keyframes jumping {
+    0% {background-position: 0 0;}
+    12.5% {background-position: 0 -210.87px;}
+    25% {background-position: 0 -421.74px;}
+    37.5% {background-position: 0 -632.61px;}
+    50% {background-position: 0 -843.48px;}
+    62.5% {background-position: 0 -1054.35px;}
+    85% {background-position: 0 -1265.22px;}
+    97.5% {background-position: 0 -1476.09px;}
+    100% {background-position: 0 -1686.96px;}
+  }
+  @keyframes musicloader {
+    0% { height: 100px;}
+    50% { height: 230px;}
+    100% { height: 100px;}
+}
+}
