@@ -1,113 +1,190 @@
 @media only screen and (min-width: 1440px) and (max-width:1919px) {
   .first{
-    width: 1440px;
-    height: 268px;
+    width: 100vw;
+    height: 18.611vw;
     background: url('../images/hi_1440.svg')
   }
   .second{
-    width: 1440px;
-    height: 156px;
+    width: 100vw;
+    height: 10.833vw;
     background: url('../images/musical_1440.svg')
   }
   .third{
-    width: 486px;
-    height: 145.21px;
-    margin-left: 66px;
-    margin-top: 70px;
+    width: 33.75vw;
+    height: 10.084vw;
+    margin-left: 4.583vw;
+    margin-top: 4.861vw;
     background: url('../images/club_1440.svg')
   }
   .piano{
-    width: 744px;
-    height: 226px;
-    margin-left: 80px;
+    width: 51.667vw;
+    height: 15.694vw;
+    margin-left: 5.556vw;
   }
   .p_y{
-    width: 100px;
-    height: 210px;
+    width: 6.944vw;
+    height: 14.583vw;
   }
   .p_g{
-    width: 77px;
-    height: 167px;
-    margin-left: 63px;
+    width: 5.347vw;
+    height: 11.597vw;
+    margin-left: 4.375vw;
   }
   .dva{
-    margin-left: 23px;
+    margin-left: 1.597vw;
   }
   .tri{
-    margin-left: 23px;
+    margin-left: 1.597vw;
   }
   .chetire{
-    margin-left: 23px;
+    margin-left: 1.597vw;
   }
   .pyti{
-    margin-left: 23px;
+    margin-left: 1.597vw;
   }
   .shesti{
-    margin-left: 23px;
+    margin-left: 1.597vw;
   }
   .pg {
-    margin-top: -230px;
+    margin-top: -15.972vw;
   }
   .fourth{
-    width: 1440px;
-    height: 265px;
+    width: 100vw;
+    height: 18.403vw;
     background: url('../images/guitasaur_1440.svg')
   }
   .drum{
-    width: 443px;
-    height: 467px;
-    margin-left: 42px;
+    width: 30.764vw;
+    height: 32.431vw;
+    margin-left: 2.917vw;
   }
   .drum_one{
-    width: 222px;
-    height: 224px;
+    width: 15.417vw;
+    height: 15.556vw;
     background:  url('../images/drum_one_1440.svg');
   }
   .drum_two{
-    width: 221px;
-    height: 224px;
+    width: 15.347vw;
+    height: 15.556vw;
     background:  url('../images/drum_two_1440.svg');
   }
   .drum_box{
-    width: 443px;
-    height: 224px;
+    width: 30.764vw;
+    height: 15.556vw;
     background:  url('../images/drum_box_1440.svg');
   }
   .teach{
-    width: 830px;
-    height: 118px;
-    margin-left: 58px;
+    width: 57.639vw;
+    height: 8.194vw;
+    margin-left: 4.028vw;
     background: url('../images/teach_1440.svg');
   }
   .slogan_one{
-    margin-left: 207px;
+    margin-left: 14.375vw;
   }
   .you{
-    width: 1440px;
-    height: 170px;
-    margin-left: 0px;
+    width: 100vw;
+    height: 11.806vw;
+    margin-left: 0vw;
     background: url('../images/you_1440.svg');
+  }
+  .dino{
+    width: 7.986vw;
+    height: 12.5vw;
+    margin-left: 5.972vw;
+    background: url('../images/dino_1440.svg');
+  }
+  .guitar{
+    width: 58.194vw;
+    height: 8.194vw;
+    margin-left: 4.861vw;
+    background: url('../images/guitar_1440.svg');
+  }
+  .gitar{
+    width: 27.847vw;
+    height: 33.681vw;
+    margin-bottom: -16.667vw;
+    margin-left: -6.806vw;
+    background: url('../images/gitar_1440.svg')
+  }
+  .fortepiano{
+    width: 70.139vw;
+    height: 10.833vw;
+    margin-left: 4.514vw;
+    margin-top: 4.514vw;
+    background: url('../images/fortepiano_1440.svg')
+  }
+  .drums{
+    width: 100vw;
+    height: 10.139vw;
+    margin-top: 4.514vw;
+    background: url('../images/drums_1440.svg')
+  }
+  .path{
+    margin-left: 4.583vw;
+    margin-top: -1.389vw;
+  }
+  .music-loader{
+    gap: 1.389vw;
+  }
+  .loader-line{
+    width: 2.778vw;
+    height: 1.042vw;
+    border-radius: 1.389vw;
+  }
+  .dinosaur{
+    width: 22.014vw;
+    height: 16.25vw;
+    margin-left: 7.986vw;
+    margin-top: -3vw;
+    background: url('../images/dinosaur_1440.svg')
+  }
+  .bottom{
+    width: 110vw;
+    height: 10.417vw;
+  }
+  .name p {
+    margin-top: 2.75vw;
+    margin-left: 4.75vw;
+  }
+  .logo{
+    width: 24.514vw;
+    height: 7.778vw;
+    margin-left: 77.639vw;
+    margin-top: -6.319vw;
+    background: url('../images/white_1440.svg')
   }
   @keyframes jump {
     0% {background-position: 0 0;}
-    12.5% {background-position: 0 -268px;}
-    25% {background-position: 0 -536px;}
-    37.5% {background-position: 0 -804px;}
-    50% {background-position: 0 -1072px;}
-    62.5% {background-position: 0 -1340px;}
-    85% {background-position: 0 -1608px;}
-    97.5% {background-position: 0 -1876px;}
-    100% {background-position: 0 -2144px;}
+    12.5% {background-position: 0 -18.611vw;}
+    25% {background-position: 0 -37.222vw;}
+    37.5% {background-position: 0 -55.833vw;}
+    50% {background-position: 0 -74.444vw;}
+    62.5% {background-position: 0 -93.056vw;}
+    85% {background-position: 0 -111.667vw;}
+    97.5% {background-position: 0 -130.278vw;}
+    100% {background-position: 0 -148.889vw;}
   }
   @keyframes prig {
     0% {background-position: 0 0;}
-    12.5% {background-position: 0 -265px;}
-    25% {background-position: 0 -530px;}
-    37.5% {background-position: 0 -795px;}
-    50% {background-position: 0 -1060px;}
-    62.5% {background-position: 0 -1325px;}
-    85% {background-position: 0 -1590px;}
-    97.5% {background-position: 0 -1855px;}
-    100% {background-position: 0 -2120px;}
+    12.5% {background-position: 0 -18.403vw;}
+    25% {background-position: 0 -36.806vw;}
+    37.5% {background-position: 0 -55.208vw;}
+    50% {background-position: 0 -73.611vw;}
+    62.5% {background-position: 0 -92.014vw;}
+    85% {background-position: 0 -110.417vw;}
+    97.5% {background-position: 0 -128.819vw;}
+    100% {background-position: 0 -128.819vw;}
+  }
+  @keyframes jumping {
+    0% {background-position: 0 0;}
+    12.5% {background-position: 0 -10.833vw;}
+    25% {background-position: 0 -21.667vw;}
+    37.5% {background-position: 0 -32.5vw;}
+    50% {background-position: 0 -43.333vw;}
+    62.5% {background-position: 0 -54.167vw;}
+    85% {background-position: 0 -65vw;}
+    97.5% {background-position: 0 -75.833vw;}
+    100% {background-position: 0 -86.667vw;}
   }
 }
