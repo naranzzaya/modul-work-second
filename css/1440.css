@@ -140,8 +140,9 @@
     background: url('../images/dinosaur_1440.svg')
   }
   .bottom{
-    width: 110vw;
+    width: 100vw;
     height: 10.417vw;
+    margin-top: 10vw;
   }
   .name p {
     margin-top: 2.75vw;
@@ -150,7 +151,7 @@
   .logo{
     width: 24.514vw;
     height: 7.778vw;
-    margin-left: 77.639vw;
+    margin-left: 70.6vw;
     margin-top: -6.319vw;
     background: url('../images/white_1440.svg')
   }
