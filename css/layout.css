@@ -1,7 +1,7 @@
 body{
   font-family: 'Manrope', sans-serif;
   font-weight: 500;
-  background:#7943A6;
+  background-color:#7943A6;
   /* animation: changingbg 15s linear infinite; */
 }
 
@@ -11,7 +11,9 @@ body{
   display: block;
   width: 100vw;
   height: 18.906vw;
-  background:  url('../images/hi.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image:  url('../images/hi.svg');
   animation: jump 0.8s steps(1) infinite;
 }
 
@@ -22,7 +24,9 @@ body{
   margin-top: 0.781vw;
   width: 100vw;
   height: 11.484vw;
-  background: url('../images/musical.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/musical.svg');
 }
 
 
@@ -32,7 +36,9 @@ body{
   margin-top: 1.172vw;
   width: 43.594vw;
   height: 16.335vw;
-  background: url('../images/club.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/club.svg');
 }
 .third p{
   margin-left: 8.594vw;
@@ -51,50 +57,50 @@ body{
   width: 53.750vw;
   height: 16.335vw;
   }
-  .p_y{
-    width: 7.212vw;
-    height: 15.389vw;
-    background: #F9ED32;
-    border-radius: 1.563vw;
-    display: inline-block;
-    margin-top: 0vw;
-  }
-  .p_y:hover {
-    background: white;
-    transition: all 0.01s linear;
-  }
-  .p_g{
-    width: 5.590vw;
-    height: 12.031vw;
-    background: #8DC73F;
-    border-radius: 1.563vw;
-    display: inline-block;
-  }
-  .odin{
-    margin-left: 4.453vw;
-  }
-  .dva{
-    margin-left: 1.719vw;
-  }
-  .tri{
-    margin-left: 1.719vw;
-  }
-  .chetire{
-    margin-left: 1.719vw;
-  }
-  .pyti{
-    margin-left: 1.719vw;
-  }
-  .shesti{
-    margin-left: 1.719vw;
-  }
-  .p_g:hover{
-    background: white;
-    transition: all 0.01s linear;
-  }
-  .pg {
-    margin-top: -16.406vw;
-  }
+.p_y{
+  width: 7.212vw;
+  height: 15.389vw;
+  background-color: #F9ED32;
+  border-radius: 1.563vw;
+  display: inline-block;
+  margin-top: 0vw;
+}
+.p_y:hover {
+  background-color: white;
+  transition: all 0.01s linear;
+}
+.p_g{
+  width: 5.590vw;
+  height: 12.031vw;
+  background-color: #8DC73F;
+  border-radius: 1.563vw;
+  display: inline-block;
+}
+.odin{
+  margin-left: 4.453vw;
+}
+.dva{
+  margin-left: 1.719vw;
+}
+.tri{
+  margin-left: 1.719vw;
+}
+.chetire{
+  margin-left: 1.719vw;
+}
+.pyti{
+  margin-left: 1.719vw;
+}
+.shesti{
+  margin-left: 1.719vw;
+}
+.p_g:hover{
+  background-image: white;
+  transition: all 0.01s linear;
+}
+.pg {
+  margin-top: -16.406vw;
+}
 
 
 /* четвертая */
@@ -103,7 +109,9 @@ body{
   margin-top: 1.562vw;
   width: 100vw;
   height: 19.141vw;
-  background: url('../images/guitasaur.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/guitasaur.svg');
   animation: prig 1s steps(1) infinite;
 }
 
@@ -116,37 +124,43 @@ body{
   width: 32.018vw;
   height: 33.750vw;
   }
-  .drum_one{
-    display: inline-block;
-    width: 15.625vw;
-    height: 17.578vw;
-    background: url('../images/drum_one.svg');
-    animation: rotate 0.6s ease-in-out infinite;
-    animation-direction: alternate-reverse;
-  }
-  .drum_one:hover{
-    /* transform: rotate(20deg); */
-    animation-play-state: paused;
-  }
-  .drum_two{
-    display: inline-block;
-    margin-left: -0.781vw;
-    width: 16.406vw;
-    height: 17.578vw;
-    background: url('../images/drum_two.svg');
-    animation: rotate 0.6s ease-in-out infinite;
-    animation-direction: alternate-reverse;
-  }
-  .rotate:hover{
-    animation-play-state: paused;
-  }
-  .drum_box{
-    display: inline-block;
-    margin-top: -1.016vw;
-    width: 32.031vw;
-    height: 16.172vw;
-    background: url('../images/drum_box.svg')
-  }
+.drum_one{
+  display: inline-block;
+  width: 15.625vw;
+  height: 17.578vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/drum_one.svg');
+  animation: rotate 0.6s ease-in-out infinite;
+  animation-direction: alternate-reverse;
+}
+.drum_one:hover{
+  /* transform: rotate(20deg); */
+  animation-play-state: paused;
+}
+.drum_two{
+  display: inline-block;
+  margin-left: -0.781vw;
+  width: 16.406vw;
+  height: 17.578vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/drum_two.svg');
+  animation: rotate 0.6s ease-in-out infinite;
+  animation-direction: alternate-reverse;
+}
+.rotate:hover{
+  animation-play-state: paused;
+}
+.drum_box{
+  display: inline-block;
+  margin-top: -1.016vw;
+  width: 32.031vw;
+  height: 16.172vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/drum_box.svg')
+}
 .fifth{
   display: inline-block;
   margin-top: -0.781vw;
@@ -159,7 +173,9 @@ body{
   margin-bottom: 7.813vw;
   width: 59.922vw;
   height: 8.504vw;
-  background: url('../images/teach.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/teach.svg');
 }
 .slogan_one{
   display: inline-block;
@@ -171,7 +187,7 @@ body{
   font-size: 5.469vw;
   text-transform: uppercase;
   color: #F9ED32;
-  /* background: url('../images/slogan_one.svg'); */
+  /* background-image: url('../images/slogan_one.svg'); */
 }
 .slogan_one p{
   font-family: 'Manrope', sans-serif;
@@ -188,7 +204,9 @@ body{
   display: inline-block;
   width: 100vw;
   height: 12.245vw;
-  background: url('../images/you.svg')
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/you.svg')
 }
 
 
@@ -199,7 +217,9 @@ body{
   margin-left: 4.375vw;
   width: 8.273vw;
   height: 12.891vw;
-  background: url('../images/dino.svg')
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/dino.svg')
 }
 .turn{
   animation: turn 1s ease infinite;
@@ -213,7 +233,9 @@ body{
   margin-bottom: 0.781vw;
   width: 60.533vw;
   height: 8.519vw;
-  background: url('../images/guitar.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/guitar.svg');
 }
 .gitar{
   display: inline-block;
@@ -221,7 +243,9 @@ body{
   margin-bottom: -20.547vw;
   width: 28.828vw;
   height: 38.125vw;
-  background: url('../images/gitar.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/gitar.svg');
   animation: scaling 2s ease infinite;
 }
 
@@ -233,7 +257,9 @@ body{
   margin-top: 4.922vw;
   width: 72.583vw;
   height: 11.719vw;
-  background: url('../images/fortepiano.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/fortepiano.svg');
   animation: jumping 1s steps(1) infinite;
 }
 
@@ -243,7 +269,9 @@ body{
   margin-top: 5vw;
   width: 100vw;
   height: 10.547vw;
-  background: url('../images/drums.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/drums.svg');
 }
 
 
@@ -344,7 +372,9 @@ body{
   /* margin-top: 75px; */
   width: 22.205vw;
   height: 18.516vw;
-  background: url('../images/dinosaur.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/dinosaur.svg');
   animation: rotating 0.5s linear infinite;
   animation-direction: alternate-reverse;
 }
@@ -357,7 +387,7 @@ body{
   margin-right: 0vw;
   width: 100vw;
   height: 11.719vw;
-  background: #8DC73F;
+  background-color: #8DC73F;
 }
 .name p{
   display: inline-block;
@@ -373,7 +403,9 @@ body{
   display: inline-block;
   width: 27.578vw;
   height: 8.750vw;
-  background: url('../images/white.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/white.svg');
   margin-left: 69.063vw;
   margin-top: -7.813vw;
 }

@@ -1,19 +1,22 @@
-@media only screen and (min-width: 1920px){
+@media only screen and (min-width: 1921px){
   .first{
-    width: 100vw;
+    width: 100%;
     height: 18.1vw;
-    background: url('../images/hi_1920.svg')
+    background-repeat: no-repeat;
+    background-image: url('../images/hi_1920.svg')
   }
   .second{
-    width: 100vw;
+    width: 100%;
     height: 11.042vw;
-    background: url('../images/musical_1920.svg')
+    background-repeat: no-repeat;
+    background-image: url('../images/musical_1920.svg')
   }
   .third{
-    width: 43.906vw;
+    width: 100%;
     height: 21.302vw;
     margin-top: -4.635vw;
-    background: url('../images/club_1920.svg')
+    background-repeat: no-repeat;
+    background-image: url('../images/club_1920.svg')
   }
   .third p{
     font-size: 4.688vw;
@@ -58,9 +61,10 @@
 
 
   .fourth{
-    width: 100vw;
+    width: 100%;
     height: 18.6vw;
-    background: url('../images/guitasaur_1920.svg')
+    background-repeat: no-repeat;
+    background-image: url('../images/guitasaur_1920.svg')
   }
   .drum{
     width: 31.302vw;
@@ -68,26 +72,30 @@
     margin-left: 1.927vw;
   }
   .drum_one{
-    width: 15.313vw;
+    width: 100%;
     height: 17.188vw;
-    background:  url('../images/drum_one_1920.svg');
+    background-repeat: no-repeat;
+    background-image:  url('../images/drum_one_1920.svg');
   }
   .drum_two{
-    width: 15.313vw;
+    width: 100%;
     height: 17.188vw;
-    background:  url('../images/drum_two_1920.svg');
+    background-repeat: no-repeat;
+    background-image:  url('../images/drum_two_1920.svg');
   }
   .drum_box{
-    width: 31.302vw;
+    width: 100%;
     height: 15.833vw;
-    background:  url('../images/drum_box_1920.svg');
+    background-repeat: no-repeat;
+    background-image:  url('../images/drum_box_1920.svg');
   }
   .teach{
-    width: 58.652vw;
+    width: 100%;
     height: 8.3vw;
     margin-left: 3.646vw;
     margin-bottom: 8.229vw;
-    background: url('../images/teach_1920.svg');
+    background-repeat: no-repeat;
+    background-image: url('../images/teach_1920.svg');
   }
   .slogan_one{
     margin-left: 12.5vw;
@@ -96,41 +104,47 @@
     font-size: 3.646vw;
   }
   .you{
-    width: 92.292vw;
+    width: 100%;
     height: 11.979vw;
     margin-left: 3.854vw;
-    background: url('../images/you_1920.svg');
+    background-repeat: no-repeat;
+    background-image: url('../images/you_1920.svg');
   }
   .dino{
-    width: 8.146vw;
+    width: 100%;
     height: 12.7vw;
     margin-left: 4.8vw;
-    background: url('../images/dino_1920.svg');
+    background-repeat: no-repeat;
+    background-image: url('../images/dino_1920.svg');
   }
   .guitar{
-    width: 59.167vw;
+    width: 100%;
     height: 8.3vw;
-    background: url('../images/guitar_1920.svg');
+    background-repeat: no-repeat;
+    background-image: url('../images/guitar_1920.svg');
   }
   .gitar{
-    width: 28.3vw;
+    width: 100%;
     height: 34.375vw;
     margin-bottom: -18.5vw;
-    background: url('../images/gitar_1920.svg');
+    background-repeat: no-repeat;
+    background-image: url('../images/gitar_1920.svg');
   }
   .fortepiano{
-    width: 71.302vw;
+    width: 100%;
     height: 11.5vw;
     margin-left: 3.854vw;
     margin-top: 4.68vw;
-    background: url('../images/fortepiano_1920.svg');
+    background-repeat: no-repeat;
+    background-image: url('../images/fortepiano_1920.svg');
   }
   .drums{
-    width: 92.292vw;
+    width: 100%;
     height: 10.3vw;
     margin-left: 3.9vw;
     margin-top: 4.7vw;
-    background: url('../images/drums_1920.svg');
+    background-repeat: no-repeat;
+    background-image: url('../images/drums_1920.svg');
   }
   .path{
     margin-left: 3.9vw;
@@ -148,9 +162,10 @@
     border-radius: 1.3vw;
   }
   .dinosaur{
-    width: 22.5vw;
+    width: 100%;
     height: 16.6vw;
-    background: url('../images/dinosaur_1920.svg');
+    background-repeat: no-repeat;
+    background-image: url('../images/dinosaur_1920.svg');
   }
   .bottom{
     width: 100vw;
@@ -164,11 +179,12 @@
     line-height: 0.8vw;
   }
   .logo{
-    width: 18.385vw;
+    width: 100%;
     height: 5.8vw;
     margin-left: 77vw;
     margin-top: -5.2vw;
-    background: url('../images/white_1920.svg');
+    background-repeat: no-repeat;
+    background-image: url('../images/white_1920.svg');
   }
   @keyframes jump {
     0% {background-position: 0 0;}
@@ -176,9 +192,9 @@
     25% {background-position: 0 -37vw;}
     37.5% {background-position: 0 -55.5vw;}
     50% {background-position: 0 -74vw;}
-    62.5% {background-position: 0 -92.5vw;}
+    62.5% {backgroune-position: 0 -92.5vw;}
     85% {background-position: 0 -111vw;}
-    97.5% {background-position: 0 -130vw;}
+    97.5% {backgroune-position: 0 -130vw;}
     100% {background-position: 0 -148vw;}
   }
   @keyframes prig {
