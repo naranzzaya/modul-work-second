@@ -20,14 +20,14 @@
     margin-left: 5vw;
   }
   @keyframes jump {
-    0% {background-image-position: 0 0;}
-    12.5% {background-image-position: 0 -18.3vw;}
-    25% {background-image-position: 0 -36.6vw;}
-    37.5% {background-image-position: 0 -54.9vw;}
-    50% {background-image-position: 0 -73.2vw;}
-    62.5% {background-image-position: 0 -91.5vw;}
-    85% {background-image-position: 0 -109.8vw;}
-    97.5% {background-image-position: 0 -128.1vw;}
-    100% {background-image-position: 0 -146.4vw;}
+    0% {background-position: 0 0;}
+    12.5% {background-position: 0 -18.3vw;}
+    25% {background-position: 0 -36.6vw;}
+    37.5% {background-position: 0 -54.9vw;}
+    50% {background-position: 0 -73.2vw;}
+    62.5% {background-position: 0 -91.5vw;}
+    85% {background-position: 0 -109.8vw;}
+    97.5% {background-position: 0 -128.1vw;}
+    100% {background-position: 0 -146.4vw;}
   }
 }
